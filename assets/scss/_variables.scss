@@ -1,0 +1,27 @@
+// Media Query Size
+$pc-width: 1280px;
+$mobile-width: 600px;
+
+// Media Query PC 너비 1280px 이상
+@mixin pcWidth {
+  @media (min-width: #{$pc-width}) {
+    @content;
+  }
+}
+
+// Media Query mobile 너비 600px 이하
+@mixin mobile {
+  @media (max-width: #{$mobile-width}) {
+    @content;
+  }
+}
+
+// Color
+$colors: (
+  primary: #3AB54A,
+  secondary: #FF8E28,
+  grayscale50: #F2F4F6,
+);
+@function color($color_name) {
+  @return map-get($colors, $color_name);
+}
