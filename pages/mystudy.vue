@@ -21,7 +21,7 @@ export default {
 </script>
 <style lang="scss">
   .mystudy{
-    background: url(/img/mystudy-bg.png) no-repeat center / cover;
+    background: url(~/img/mystudy-bg.png) no-repeat center / cover;
     .back-link{
       position: absolute;
       top: 3.75%;
@@ -29,7 +29,7 @@ export default {
       display: block;
       width: 4.921875%;
       height: 8.1875%;
-      background: url(/img/mystudy-back.png) no-repeat center / cover;
+      background: url(~/img/mystudy-back.png) no-repeat center / cover;
       &:hover{
         transform: scale(1.05);
       }

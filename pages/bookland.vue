@@ -6,11 +6,11 @@
     <!-- 도서 슬라이더 -->
     <client-only>
       <swiper class="bookland-swiper" ref="booklandSwiper" :options="swiperOptions">        
-        <swiper-slide><NuxtLink :to="{name: 'contents-id', params:{id: 1, theme: 'bookland'}}" class="book hover-smaller"><img src="/img/book1.png" alt="달나라에 갈까요?"></NuxtLink></swiper-slide>
-        <swiper-slide><NuxtLink :to="{name: 'contents-id', params:{id: 2, theme: 'bookland'}}" class="book hover-smaller"><img src="/img/book2.png" alt="가나다라"></NuxtLink></swiper-slide>
-        <swiper-slide><NuxtLink :to="{name: 'contents-id', params:{id: 3, theme: 'bookland'}}" class="book hover-smaller"><img src="/img/book3.png" alt="장갑"></NuxtLink></swiper-slide>
-        <swiper-slide><NuxtLink :to="{name: 'contents-id', params:{id: 4, theme: 'bookland'}}" class="book hover-smaller"><img src="/img/book4.png" alt="집에서 길러요"></NuxtLink></swiper-slide>
-        <swiper-slide><NuxtLink :to="{name: 'contents-id', params:{id: 5, theme: 'bookland'}}" class="book hover-smaller"><img src="/img/book5.png" alt="작고 빨간 닭"></NuxtLink></swiper-slide>
+        <swiper-slide><NuxtLink :to="{name: 'contents-id', params:{id: 1, theme: 'bookland'}}" class="book hover-smaller"><img src="~/img/book1.png" alt="달나라에 갈까요?"></NuxtLink></swiper-slide>
+        <swiper-slide><NuxtLink :to="{name: 'contents-id', params:{id: 2, theme: 'bookland'}}" class="book hover-smaller"><img src="~/img/book2.png" alt="가나다라"></NuxtLink></swiper-slide>
+        <swiper-slide><NuxtLink :to="{name: 'contents-id', params:{id: 3, theme: 'bookland'}}" class="book hover-smaller"><img src="~/img/book3.png" alt="장갑"></NuxtLink></swiper-slide>
+        <swiper-slide><NuxtLink :to="{name: 'contents-id', params:{id: 4, theme: 'bookland'}}" class="book hover-smaller"><img src="~/img/book4.png" alt="집에서 길러요"></NuxtLink></swiper-slide>
+        <swiper-slide><NuxtLink :to="{name: 'contents-id', params:{id: 5, theme: 'bookland'}}" class="book hover-smaller"><img src="~/img/book5.png" alt="작고 빨간 닭"></NuxtLink></swiper-slide>
       </swiper>
     </client-only>
     <!-- 카테고리 링크 -->
@@ -63,7 +63,7 @@ export default {
 </script>
 <style lang="scss">
   .bookland{
-    background: url(/img/bookland-bg.png) no-repeat center / cover;
+    background: url(~/img/bookland-bg.png) no-repeat center / cover;
     .back-link{
       position: absolute;
       top: 8.75%;
@@ -71,7 +71,7 @@ export default {
       display: block;
       width: 2.734375%;
       height: 3.75%;
-      background: url(/img/icon-back.png) no-repeat center / cover;
+      background: url(~/img/icon-back.png) no-repeat center / cover;
       &:hover{
         transform: scale(1.05);
       }
@@ -82,7 +82,7 @@ export default {
       left: 7.5%;
       width: 12.03125%;
       height: 6.375%;
-      background: url(/img/bookland-logo.png) no-repeat center / cover;
+      background: url(~/img/bookland-logo.png) no-repeat center / cover;
       &:hover{
         transform: scale(1.03);
       }
@@ -93,7 +93,7 @@ export default {
       right: 17.96875%;
       width: 40.703125%;
       height: 11.125%;
-      background: url(/img/bookland-category.png) no-repeat center / cover;
+      background: url(~/img/bookland-category.png) no-repeat center / cover;
       transition: all .3s;
     }
     .bookland-swiper{

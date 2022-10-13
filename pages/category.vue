@@ -21,7 +21,7 @@ export default {
 </script>
 <style lang="scss">
   .category{
-    background: url(/img/category-bg.png) no-repeat center / cover;
+    background: url(~/img/category-bg.png) no-repeat center / cover;
     .back-link{
       position: absolute;
       top: 6%;
@@ -29,7 +29,7 @@ export default {
       display: block;
       width: 3.828125%;
       height: 6.125%;
-      background: url(/img/icon-back2.png) no-repeat center / cover;
+      background: url(~/img/icon-back2.png) no-repeat center / cover;
       &:hover{
         transform: scale(1.05);
       }
