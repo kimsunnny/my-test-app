@@ -45,14 +45,14 @@ export default {
 </script>
 <style lang="scss">
   .studyland{
-    background: url(~/img/studyland-bg.png) no-repeat center / cover;
+    background: url(~/static/img/studyland-bg.png) no-repeat center / cover;
     .logo-link{
       position: absolute;
       width: 15.078125%;
       height: 8%;
       top: 3.5%;
       left: 42.5%;
-      background-image: url(~/img/studyland-logo.png);
+      background-image: url(~/static/img/studyland-logo.png);
     }
     .btn-item{
       position: absolute;
@@ -62,31 +62,31 @@ export default {
       &.movie-link{
         left: 4.453125%;
         width: 12.5%;
-        background-image: url(~/img/movie-btn.png);
+        background-image: url(~/static/img/movie-btn.png);
         &:hover{
-          background-image: url(~/img/movie-btn-on.png);
+          background-image: url(~/static/img/movie-btn-on.png);
         }
       }
       &.onestep-link{
         left: 17.578125%;
         width: 9.375%;
-        background-image: url(~/img/onestep-btn.png);
+        background-image: url(~/static/img/onestep-btn.png);
         &.on{
-          background-image: url(~/img/onestep-btn-on.png);
+          background-image: url(~/static/img/onestep-btn-on.png);
         }
         &:hover{
-          background-image: url(~/img/onestep-btn-on.png);
+          background-image: url(~/static/img/onestep-btn-on.png);
         }
       }
       &.twostep-link{
         left: 27.578125%;
         width: 9.375%;
-        background-image: url(~/img/twostep-btn.png);
+        background-image: url(~/static/img/twostep-btn.png);
         &.on{
-          background-image: url(~/img/twostep-btn-on.png);
+          background-image: url(~/static/img/twostep-btn-on.png);
         }
         &:hover{
-          background-image: url(~/img/twostep-btn-on.png);
+          background-image: url(~/static/img/twostep-btn-on.png);
         }
       }
     }
@@ -96,7 +96,7 @@ export default {
       right: 7.5%;
       width: 4.84375%;
       height: 7.8125%;
-      background-image: url(~/img/icon-calendar.png);
+      background-image: url(~/static/img/icon-calendar.png);
     }
     .my-study-link{
       position: absolute;
@@ -104,7 +104,7 @@ export default {
       left: 6.484375%;
       width: 8.0859375%;
       height: 12%;
-      background-image: url(~/img/btn-my-study.png);
+      background-image: url(~/static/img/btn-my-study.png);
       &:hover{
         transform: scale(1.04);
       }
@@ -115,7 +115,7 @@ export default {
       left: 26.953125%;
       width: 7.9296875%;
       height: 12.125%;
-      background-image: url(~/img/btn-promise.png);
+      background-image: url(~/static/img/btn-promise.png);
       &:hover{
         transform: scale(1.04);
       }
@@ -126,7 +126,7 @@ export default {
       right: 6.328125%;
       width: 47.421875%;
       height: 13.625%;
-      background-image: url(~/img/btn-bookland.png);
+      background-image: url(~/static/img/btn-bookland.png);
     }
     .tab-list{
       position: absolute;
@@ -148,11 +148,11 @@ export default {
           background-size: cover;
           transition: all .2s;
         }
-        .tab-01{ background-image: url(~/img/tab-01.png); }
-        .tab-02{ background-image: url(~/img/tab-02.png); }
-        .tab-03{ background-image: url(~/img/tab-03.png); }
-        .tab-04{ background-image: url(~/img/tab-04.png); }
-        .tab-05{ background-image: url(~/img/tab-05.png); }
+        .tab-01{ background-image: url(~/static/img/tab-01.png); }
+        .tab-02{ background-image: url(~/static/img/tab-02.png); }
+        .tab-03{ background-image: url(~/static/img/tab-03.png); }
+        .tab-04{ background-image: url(~/static/img/tab-04.png); }
+        .tab-05{ background-image: url(~/static/img/tab-05.png); }
         &.on,&:hover{
           a{
             box-shadow: 0px 8px 10px 0px rgba(136, 188, 0, 0.3);
@@ -161,11 +161,11 @@ export default {
             border-bottom-left-radius: 24px;
             border-bottom-right-radius: 24px;
           }
-          .tab-01{ background-image: url(~/img/tab-on-01.png); }
-          .tab-02{ background-image: url(~/img/tab-on-02.png); }
-          .tab-03{ background-image: url(~/img/tab-on-03.png); }
-          .tab-04{ background-image: url(~/img/tab-on-04.png); }
-          .tab-05{ background-image: url(~/img/tab-on-05.png); }
+          .tab-01{ background-image: url(~/static/img/tab-on-01.png); }
+          .tab-02{ background-image: url(~/static/img/tab-on-02.png); }
+          .tab-03{ background-image: url(~/static/img/tab-on-03.png); }
+          .tab-04{ background-image: url(~/static/img/tab-on-04.png); }
+          .tab-05{ background-image: url(~/static/img/tab-on-05.png); }
         }
       }
     }

@@ -2,10 +2,10 @@
   <div class="first-round">
     <client-only>
       <swiper class="study-swiper" :options="swiperOptions">        
-        <swiper-slide><NuxtLink :to="{name: 'contents-id', params:{id: 11, theme: 'studylandTwoStep'}}" class="card hover-smaller"><img src="~/img/story-card.png" alt="동화"></NuxtLink></swiper-slide>
-        <swiper-slide><NuxtLink :to="{name: 'contents-id', params:{id: 12, theme: 'studylandTwoStep'}}" class="card hover-smaller"><img src="~/img/korean-card.png" alt="한글"></NuxtLink></swiper-slide>
-        <swiper-slide><NuxtLink :to="{name: 'contents-id', params:{id: 13, theme: 'studylandTwoStep'}}" class="card hover-smaller"><img src="~/img/math-card.png" alt="수학"></NuxtLink></swiper-slide>
-        <swiper-slide><NuxtLink :to="{name: 'contents-id', params:{id: 14, theme: 'studylandTwoStep'}}" class="card hover-smaller"><img src="~/img/play-card.png" alt="놀이"></NuxtLink></swiper-slide>
+        <swiper-slide><NuxtLink :to="{name: 'contents-id', params:{id: 11, theme: 'studylandTwoStep'}}" class="card hover-smaller"><img src="~/static/img/story-card.png" alt="동화"></NuxtLink></swiper-slide>
+        <swiper-slide><NuxtLink :to="{name: 'contents-id', params:{id: 12, theme: 'studylandTwoStep'}}" class="card hover-smaller"><img src="~/static/img/korean-card.png" alt="한글"></NuxtLink></swiper-slide>
+        <swiper-slide><NuxtLink :to="{name: 'contents-id', params:{id: 13, theme: 'studylandTwoStep'}}" class="card hover-smaller"><img src="~/static/img/math-card.png" alt="수학"></NuxtLink></swiper-slide>
+        <swiper-slide><NuxtLink :to="{name: 'contents-id', params:{id: 14, theme: 'studylandTwoStep'}}" class="card hover-smaller"><img src="~/static/img/play-card.png" alt="놀이"></NuxtLink></swiper-slide>
       </swiper>
     </client-only>
   </div>

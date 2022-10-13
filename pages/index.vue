@@ -13,14 +13,14 @@ export default {
 </script>
 <style lang="scss">
   .launcher{
-    background: url(~/img/main-bg.png) no-repeat center / cover;
+    background: url(~/static/img/main-bg.png) no-repeat center / cover;
     .logo-link{
       position: absolute;
       top: 6.75%;
       left: 43.125%;
       width: 13.75%;
       height: 7.375%;
-      background-image: url(~/img/main-logo.png);
+      background-image: url(~/static/img/main-logo.png);
     }
     .move-link{
       width: 15.546875%;
@@ -31,11 +31,11 @@ export default {
       background-size: cover;
       &.move-studyland{
         left: 30.78125%;
-        background-image: url(~/img/move-studyland.png);
+        background-image: url(~/static/img/move-studyland.png);
       }
       &.move-bookland{
         right: 30.78125%;
-        background-image: url(~/img/move-bookland.png);
+        background-image: url(~/static/img/move-bookland.png);
       }
     }
   }

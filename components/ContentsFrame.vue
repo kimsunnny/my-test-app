@@ -92,7 +92,7 @@ export default {
         position: absolute; top: 50%; left: 50%; z-index: 999; transform: translate(-50%, -50%);
         width: 50%;
         height: 64.25%;
-        background: url(~/img/modal-back.png) no-repeat center / cover;
+        background: url(~/static/img/modal-back.png) no-repeat center / cover;
         display: flex; 
         flex-direction: column; 
         align-items: center;
@@ -103,16 +103,16 @@ export default {
           bottom: 5.625%;
           &.btn-yes {
             left: 15%;
-            background: url(~/img/btn-yes.png) no-repeat center / contain;
+            background: url(~/static/img/btn-yes.png) no-repeat center / contain;
             &:hover{
-              background: url(~/img/btn-yes-on.png) no-repeat center / contain;
+              background: url(~/static/img/btn-yes-on.png) no-repeat center / contain;
             }
           }
           &.btn-no {
             right: 15%;
-            background: url(~/img/btn-no.png) no-repeat center / contain;
+            background: url(~/static/img/btn-no.png) no-repeat center / contain;
             &:hover{
-              background: url(~/img/btn-no-on.png) no-repeat center / contain;
+              background: url(~/static/img/btn-no-on.png) no-repeat center / contain;
             }
           }
         }
