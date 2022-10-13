@@ -1,4 +1,9 @@
 export default {
+  // 배포
+  target: 'static',
+  router: {
+    base: '/my-test-app/'
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'kampingpromotion',
