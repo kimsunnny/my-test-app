@@ -1,7 +1,5 @@
 const commonFn = () => {
   const setInnerHeight = () => {
-    // let windowWidth = window.innerWidth;
-    // let windowHeight = window.innerHeight;
     let windowWidth = document.querySelector(".wrap").offsetWidth;
     let windowHeight = document.querySelector(".wrap").offsetHeight;
     let windowRatio = windowWidth / windowHeight;
