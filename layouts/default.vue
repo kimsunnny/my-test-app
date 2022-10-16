@@ -1,10 +1,5 @@
 <template>
-  <div class="wrap" v-bind:class="[isLoading ? 'before-load' : '']">
-    <div class="loading">
-      <svg class="loading-circle">
-        <circle cx="50%" cy="50%" r="25"></circle>
-      </svg>
-    </div>
+  <div class="wrap">
     <div class="inner">
       <Nuxt />
     </div>
@@ -26,12 +21,10 @@
     },
     data() {
       return {
-        isLoading: true,
       }
     },
     mounted() {
       commonFn();
-      this.isLoading = false;
     },
   }
 </script>
