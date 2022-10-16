@@ -1,8 +1,11 @@
 const commonFn = () => {
   const setInnerHeight = () => {
-    let windowWidth = window.innerWidth;
-    let windowHeight = window.innerHeight;
+    // let windowWidth = window.innerWidth;
+    // let windowHeight = window.innerHeight;
+    let windowWidth = document.querySelector(".wrap").offsetWidth;
+    let windowHeight = document.querySelector(".wrap").offsetHeight;
     let windowRatio = windowWidth / windowHeight;
+    console.log(windowWidth);
     if (windowWidth < 1280 || windowHeight < 800) {
       // 갤럭시 A8보다 작을 때
       if (windowRatio <= 1.6) {
