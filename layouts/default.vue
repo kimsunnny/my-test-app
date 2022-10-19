@@ -1,6 +1,6 @@
 <template>
-  <div class="wrap">
-    <div class="inner">
+  <div id="app">
+    <div class="wrap">
       <Nuxt />
     </div>
   </div>
@@ -10,11 +10,11 @@
   export default {
     head() {
       return {
-        title: '캠핑 무료체험 페이지 | 금성출판사',
+        title: '회사명',
         meta: [
           { 
-            name: '캠핑 무료체험 페이지 | 금성출판사', 
-            content: '캠핑 무료체험 페이지 | 금성출판사' 
+            name: '타이틀', 
+            content: '설명' 
           }
         ],
       }
@@ -29,5 +29,5 @@
   }
 </script>
 <style lang="scss">
-  @import '~/assets/scss/common';
+  @import '~/assets/scss/app';
 </style>

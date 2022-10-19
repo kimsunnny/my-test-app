@@ -1,7 +1,7 @@
 const commonFn = () => {
   const setInnerHeight = () => {
-    let windowWidth = document.querySelector(".wrap").offsetWidth;
-    let windowHeight = document.querySelector(".wrap").offsetHeight;
+    let windowWidth = document.getElementById("app").offsetWidth;
+    let windowHeight = document.getElementById("app").offsetHeight;
     let windowRatio = windowWidth / windowHeight;
     console.log(windowWidth);
     if (windowWidth < 1280 || windowHeight < 800) {
@@ -9,17 +9,17 @@ const commonFn = () => {
       if (windowRatio <= 1.6) {
         // 세로가 길 때
         let resizedHeight = windowWidth / 1.6;
-        document.querySelector(".inner").style.width = "100%";
-        document.querySelector(".inner").style.height = `${resizedHeight}px`;
+        document.querySelector(".wrap").style.width = "100%";
+        document.querySelector(".wrap").style.height = `${resizedHeight}px`;
       } else {
         // 가로가 길 때
         let resizedWidth = windowHeight * 1.6;
-        document.querySelector(".inner").style.height = "100%";
-        document.querySelector(".inner").style.width = `${resizedWidth}px`;
+        document.querySelector(".wrap").style.height = "100%";
+        document.querySelector(".wrap").style.width = `${resizedWidth}px`;
       }
     } else {
-      document.querySelector(".inner").style.width = "1280px";
-      document.querySelector(".inner").style.height = "800px";
+      document.querySelector(".wrap").style.width = "1280px";
+      document.querySelector(".wrap").style.height = "800px";
     }
   };
   setInnerHeight();

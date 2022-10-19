@@ -16,6 +16,14 @@ $mobile-width: 600px;
   }
 }
 
+// Font
+@mixin font( $size , $weight:400 , $line-h:$size * 1.5 ) {
+  font-size: $size;
+  line-height: $line-h;
+  letter-spacing: - ($size * .03);
+  font-weight : $weight;
+}
+
 // Color
 $colors: (
   primary: #3AB54A,

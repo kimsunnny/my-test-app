@@ -1,42 +1,16 @@
 <template>
-  <div class="box launcher">
-    <NuxtLink to="/" class="logo-link link-img hover-bigger"><span class="sr-only">메인페이지 이동</span></NuxtLink>
-    <NuxtLink to="/studyland/onestep/first" class="move-link move-studyland link-img hover-bigger"><span class="sr-only">스터디랜드 이동</span></NuxtLink>
-    <NuxtLink to="/bookland" class="move-link move-bookland link-img hover-bigger"><span class="sr-only">북랜드 이동</span></NuxtLink>
+  <div class="inner">
+    <h1>index</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae sequi impedit neque ipsa beatae exercitationem doloribus nihil architecto a alias. Sit ipsam hic quasi fugiat doloremque delectus deserunt ad animi?</p>
+    <p>세상에 이런 폰트가 나오다니 천재인듯</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: 'PageIndex'
 }
 </script>
 <style lang="scss">
-  .launcher{
-    background: url(~/static/img/main-bg.png) no-repeat center / cover;
-    .logo-link{
-      position: absolute;
-      top: 6.75%;
-      left: 43.125%;
-      width: 13.75%;
-      height: 7.375%;
-      background-image: url(~/static/img/main-logo.png);
-    }
-    .move-link{
-      width: 15.546875%;
-      height: 13.625%;
-      position: absolute;
-      top: 40.5%;
-      background-position: center;
-      background-size: cover;
-      &.move-studyland{
-        left: 30.78125%;
-        background-image: url(~/static/img/move-studyland.png);
-      }
-      &.move-bookland{
-        right: 30.78125%;
-        background-image: url(~/static/img/move-bookland.png);
-      }
-    }
-  }
+  .box{ font-size: 20px; font-weight: 300; }
 </style>

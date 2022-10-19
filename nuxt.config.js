@@ -20,7 +20,10 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [{ src: "~/assets/css/reset.css", lang: "css" }],
+  css: [
+    { src: "~/assets/css/reset.css", lang: "css" },
+    { src: "~/assets/css/font.css", lang: "css" }
+  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -35,7 +38,7 @@ export default {
   modules: [],
   server: {
     host: "0.0.0.0",
-    port: "53394",
+    port: "1000",
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
