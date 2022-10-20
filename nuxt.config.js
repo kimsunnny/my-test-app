@@ -6,7 +6,7 @@ export default {
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "kampingpromotion",
+    title: "my-test-app",
     htmlAttrs: {
       lang: "Ko",
     },
@@ -20,10 +20,7 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-    { src: "~/assets/css/reset.css", lang: "css" },
-    { src: "~/assets/css/font.css", lang: "css" }
-  ],
+  css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],

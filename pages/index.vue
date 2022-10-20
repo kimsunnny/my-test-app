@@ -8,9 +8,10 @@
 
 <script>
 export default {
-  name: 'PageIndex'
+  name: 'PageIndex',
 }
 </script>
 <style lang="scss">
-  .box{ font-size: 20px; font-weight: 300; }
+  @import '~@/assets/scss/abstracts/variables';
+  h1{ color: $sky; }
 </style>

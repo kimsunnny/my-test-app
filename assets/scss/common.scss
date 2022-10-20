@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+// 1. Configuration and helpers
+@import
+  '~@/assets/scss/abstracts/variables';
+
+// 2. Base stuff
+@import
+  '~@/assets/scss/base/reset',
+  '~@/assets/scss/base/fonts',
+  '~@/assets/scss/base/base';
+
+// 3. Layout-related sections
+@import
+  '~@/assets/scss/layout/layout',
+  '~@/assets/scss/layout/header',
+  '~@/assets/scss/layout/footer';
